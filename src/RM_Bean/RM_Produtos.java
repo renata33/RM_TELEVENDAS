@@ -1,10 +1,4 @@
-package RM_Classes;
-
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+package RM_Bean;
 
 /**
  *
@@ -25,7 +19,16 @@ public class RM_Produtos {
         this.RM_quantidade = quantidade;
         this.RM_ID = ID;
         this.RM_Lote = Lote;
+        
        }
+
+    public int getRM_ID() {
+        return RM_ID;
+    }
+
+    public void setRM_ID(int RM_ID) {
+        this.RM_ID = RM_ID;
+    }
     
     public void setRM_Descricao(String Descricao){
     this.RM_Descricao = Descricao;

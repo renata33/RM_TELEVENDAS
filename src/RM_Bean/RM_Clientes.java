@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package RM_Classes;
+package RM_Bean;
 
 /**
  *

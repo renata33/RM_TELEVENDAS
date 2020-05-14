@@ -20,8 +20,6 @@ import javax.swing.JTextField;
  * @author Renata <rptmpriscila33@gmail.com>
  */
 
-
-
 public class RM_Form_Assinaturas extends JPanel implements ActionListener{
 
   private JTextField campo_servico ;
